@@ -1,12 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5a0b546ef7.js" crossorigin="anonymous"></script>
+    <title>Tia Sole</title>
 </head>
+
 <body>
-    <h1>hola mundo</h1>
+
+    <header>
+        <div class="logo">Tia Sole</div>
+
+        <nav class="primero">
+            <a href="#">Productos</a>
+            <a href="#">Login</a>
+            <a href="#">Registrate</a>
+            <a href="#encuestaa">Danos tu opinión</a>
+            <a href="#"><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i></a>
+        </nav>
+
+    </header>
+
+
+    <section class="caja1">
+
+
+
+        <div class="circulo">
+            <img src="img/tia-sole-dibujo-listo.gif" id="mujer">
+            <h1 id="titlogo">Tia Sole</h1>
+            <a href="#">Alimentos de Elaboración <br>Casera</a>
+        </div>
+
+
+
+
+
+
+        <div class="tops">
+
+            <div class="titulo">
+                <h1>¡LO MÁS VENDIDO!</h1>
+            </div>
+
+
+            <div class="cuadro-uno medidas-cajitas">
+                <img src="img/berenjenas.jpg">
+
+                <div class="p-berenjena">
+                    <h5>ESCABECHE DE BERENJENA</h5>
+                    <p><strong>$500</strong></p>
+                </div>
+            </div>
+
+
+            <div class="cuadro-dos medidas-cajitas">
+                <img src="img/cebollas.jpg">
+
+                <div class="p-cebolla">
+                    <h5>ESCABECHE DE CEBOLLA</h5>
+                    <p><strong>$500</strong></p>
+                </div>
+            </div>
+
+
+            <div class="cuadro-tres medidas-cajitas">
+                <img src="img/empanadas-arabes.jpg">
+
+                <div class="e-arabes">
+                    <h5>EMPANADAS ARABES</h5>
+                    <p><strong>$1800(x12)</strong></p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="stuff">
+            <div class="circulo2"></div>
+
+            <div class="info">
+                <h3>Stella Gordillo</h3>
+                <p>Diseñadora Web</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <a name="encuestaa"></a>
+    <div id="titulo-for">
+        <h1>¡PARA SEGUIR CRECIENDO JUNTOS!</h1>
+    </div>
+
+
+    <section class="for-opiniones">
+
+        <form action="" method="get">
+
+
+            <div class="parte1-for">
+                <div class="detalles" id="estado">
+                    <label>¿Nuestros alimentos te llegaron en buen estado?</label><br>
+                    <label for="si">Sí, siempre</label>
+                    <input type="checkbox" name="si" id="si">
+
+                    <label for="no">No, algo se rompió</label>
+                    <input type="checkbox" name="no" id="no">
+                </div>
+
+                <br>
+
+
+
+                <div class="detalles" id="horas">
+                    <label>¿Tardó la entrega más de 24 horas?</label><br>
+                    <label for="esc">Sí, pero solo de los escabeches</label>
+                    <input type="checkbox" name="esc" id="esc">
+                    <br>
+                    <label for="orden">No, todo en orden</label>
+                    <input type="checkbox" name="orden" id="orden">
+                    <br>
+                    <label for="emp">Una sola vez con las empanadas</label>
+                    <input type="checkbox" name="emp" id="emp">
+                </div>
+
+                <br>
+
+                <div class="detalles" id="agregados">
+                    <label>¿Qué te gustaria que agregemos a nuestro emprendimiento?</label>
+                    <br>
+                    <label for="variante">Otra variante de comida</label>
+                    <input type="checkbox" name="variante" id="variante">
+                    <br>
+                    <label for="dulces">Cosas dulces</label>
+                    <input type="checkbox" name="dulces" id="dulces">
+                    <br>
+                    <label for="panificacion">Panificación</label>
+                    <input type="checkbox" name="panificacion" id="panificacion">
+                </div>
+
+            </div>
+
+
+            <div class="parte2-for">
+                <div id="cuadro-texto">
+                    <label class="detalles">¿Tenes alguna sugerencia que nos ayude a mejorar?</label><br>
+                    <textarea id="textarea" rows="7" cols="40">Escribelo aquí</textarea>
+                </div>
+
+                <br>
+
+                <div class="detalles" id="disfrute">
+                    <label>¿Disfrutas de nuestros productos?</label><br>
+                    <input type="radio" name="disf" id="disf-si" value="Sí"><label>Sí</label>
+                    <input type="radio" name="disf" id="disf-no" value="No"><label>No</label>
+                </div>
+
+                <br>
+
+                <div class="detalles" id="caducado">
+                    <label>¿Te llegó alguno caducado?</label><br>
+                    <label for="afirmativo">Si</label>
+                    <input type="checkbox" name="afirmativo" id="afirmativo">
+
+                    <label for="negativo">Hasta ahora, nunca</label>
+                    <input type="checkbox" name="negativo" id="negativo">
+                </div>
+
+            </div>
+
+            <div class="boton">
+                <button>Enviar</button>
+            </div>
+        </form>
+
+
+    </section>
+
+
+
+    <footer>
+        &copy;Tia Sole
+
+        <div class="contenedor">
+            <div>
+                <i class="fa-brands fa-facebook" style="color: #ffffff;" title="Tia Sole"></i>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-whatsapp" style="color: #fafafa;" title="3804581822"></i>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-location-dot" style="color: #ffffff;" title="La Rioja, Argentina"></i>
+            </div>
+        </div>
+    </footer>
+
+
 </body>
+
 </html>

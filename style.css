@@ -1,0 +1,318 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background: rgb(61, 236, 61);
+    color: white;
+    border: solid black 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: cursive;
+    font-size: 32px;
+    padding-left: 28px;
+
+
+}
+
+.primero {
+    font-size: 20px;
+    padding: 12px 20px 0 0;
+}
+
+.primero a {
+    text-decoration: none;
+    color: white;
+    margin: 6px;
+}
+
+
+
+/* primera caja */
+.caja1 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+/* Para mostrar el logo completo*/
+.circulo {
+    width: 480px;
+    height: 470px;
+    border: solid black 2px;
+    border-radius: 50%;
+    font-family: cursive;
+    text-align: center;
+    background-color: rgba(39, 248, 39, 0.9);
+    margin-top: 70px;
+}
+
+#mujer {
+    width: 550px;
+    height: 350px;
+    position: relative;
+    left: 100px;
+    bottom: 20px;
+}
+
+#titlogo {
+    font-size: 65px;
+    position: relative;
+    right: 70px;
+    bottom: 150px;
+}
+
+.circulo a {
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    position: relative;
+    bottom: 140px;
+}
+
+
+
+
+/* Lo más vendido */
+.tops {
+    width: 600px;
+    height: 250px;
+    margin: 100px 30px 0 3px;
+}
+
+/* Class creada para limitar el tamaño de los cuadros */
+.medidas-cajitas {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-top: 30px;
+}
+
+/* Para todas las imagenes dentro de los cuadritos */
+.tops img {
+    width: 165px;
+    height: 200px;
+    border: solid rgb(61, 236, 61) 4.5px;
+}
+
+
+/* De lo más vendido */
+.titulo {
+    text-align: center;
+    font-size: 29px;
+}
+
+.titulo h1 {
+    border-bottom: solid rgb(183, 50, 245) 1px;
+}
+
+
+
+/* Primera cajita de lo más vendido */
+.cuadro-uno {
+    text-align: center;
+}
+
+.p-berenjena {
+    width: 140px;
+    height: 70px;
+    margin: 6px 0 0 32px;
+    border: solid rgb(183, 50, 245) 2px;
+    padding: 5px;
+}
+
+
+/* Segunda cajita de lo más vendido */
+.cuadro-dos {
+    text-align: center;
+}
+
+.p-cebolla {
+    width: 140px;
+    height: 70px;
+    margin: 6px 0 0 32px;
+    border: solid rgb(183, 50, 245) 2px;
+    padding: 5px;
+}
+
+
+/* Tercera cajita de lo más vendido */
+.cuadro-tres {
+    text-align: center;
+}
+
+.e-arabes {
+    width: 140px;
+    height: 70px;
+    margin: 6px 0 0 32px;
+    border: solid rgb(183, 50, 245) 2px;
+    padding-top: 13px;
+}
+
+
+
+
+
+/* Mis datos */
+.stuff {
+    width: 400px;
+    height: 120px;
+    border: solid rgb(183, 50, 245) 3px;
+    position: relative;
+    left: 280px;
+    bottom: 20px;
+}
+
+.circulo2 {
+    width: 90px;
+    height: 90px;
+    border: solid black 1px;
+    border-radius: 50%;
+    background-image: url(img/perfil.jpg);
+    background-size: cover;
+    background-repeat: no repeat;
+    background-position: center;
+    background-size: 80px;
+    position: absolute;
+    top: 12px;
+    left: 50px;
+}
+
+.info {
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    left: 160px;
+    top: 20px;
+}
+
+
+
+
+
+/* titulo para el formulario */
+#titulo-for {
+    text-align: center;
+    font-size: 19px;
+    margin-top: 150px;
+}
+
+/* Formulario de opiniones */
+.for-opiniones {
+    width: 850px;
+    height: 350px;
+    border: solid rgb(183, 50, 245) 3px;
+    background-color: rgba(183, 50, 245, .4);
+    text-align: center;
+    margin: 15px auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+
+.parte1-for {
+    float: left;
+}
+
+#estado {
+    margin: 30px 0 8px 70px;
+}
+
+#si {
+    margin-top: 5px;
+}
+
+#horas {
+    margin: 5px 0 10px 70px;
+}
+
+#esc {
+    margin-top: 5px;
+}
+
+#agregados {
+    margin-left: 70px;
+}
+
+#variante {
+    margin-top: 5px;
+}
+
+
+/* detalles para los elementos del formulario */
+.detalles {
+    border: solid white 1px;
+    background-color: white;
+    width: 300px;
+}
+
+
+
+.parte2-for {
+    float: right;
+    text-align: center;
+}
+
+#cuadro-texto {
+    margin: 30px 50px 0 0;
+}
+
+#textarea {
+    margin-top: 8px;
+}
+
+#disfrute {
+    margin-left: 20px;
+}
+
+#caducado {
+    margin: 0 0 0 20px;
+}
+
+#afirmativo {
+    margin-top: 5px;
+}
+
+
+.boton button {
+    margin: 20px 0 0 30px;
+    width: 120px;
+    border-color: rgb(183, 50, 245);
+    background-color: white;
+    padding: 10px 30px 10px 30px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: rgb(61, 236, 61);
+    border: solid black 2px;
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+}
+
+.contenedor {
+    width: 80px;
+    display: flex;
+    justify-content: space-around;
+    margin: 3px auto;
+
+
+}
